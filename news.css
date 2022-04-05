@@ -1,0 +1,141 @@
+h1{
+           text-align: Center;
+        font-size: 65px;
+        color: rgb(12, 11, 11);
+    }
+
+
+p{
+   
+        text-align: Center;
+        font-size: 20px;
+        color: rgb(12, 12, 12);
+    }
+
+
+Body {
+    background-color: rgba(211, 211, 211, 0.438);
+  
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #808080;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #070808;
+    color: rgb(255, 255, 255);
+  }
+  html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+ display: inline-block;
+ vertical-align: top;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  height: 100%;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #aeafaf;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 100;
+  
+}
+
